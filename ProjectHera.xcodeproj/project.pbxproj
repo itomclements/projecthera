@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E21EA6101F8194CC00FC8DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21EA60F1F8194CC00FC8DF8 /* AppDelegate.swift */; };
-		E21EA6121F8194CC00FC8DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21EA6111F8194CC00FC8DF8 /* ViewController.swift */; };
 		E21EA6151F8194CC00FC8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21EA6131F8194CC00FC8DF8 /* Main.storyboard */; };
 		E21EA6181F8194CC00FC8DF8 /* ProjectHera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E21EA6161F8194CC00FC8DF8 /* ProjectHera.xcdatamodeld */; };
 		E21EA61A1F8194CC00FC8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21EA6191F8194CC00FC8DF8 /* Assets.xcassets */; };
 		E21EA61D1F8194CC00FC8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21EA61B1F8194CC00FC8DF8 /* LaunchScreen.storyboard */; };
+		E28701511F82BDD3006414E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28701501F82BDD3006414E0 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E21EA60C1F8194CC00FC8DF8 /* ProjectHera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectHera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21EA60F1F8194CC00FC8DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E21EA6111F8194CC00FC8DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E21EA6141F8194CC00FC8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21EA6171F8194CC00FC8DF8 /* ProjectHera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectHera.xcdatamodel; sourceTree = "<group>"; };
 		E21EA6191F8194CC00FC8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21EA61C1F8194CC00FC8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21EA61E1F8194CC00FC8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28701501F82BDD3006414E0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E21EA60F1F8194CC00FC8DF8 /* AppDelegate.swift */,
-				E21EA6111F8194CC00FC8DF8 /* ViewController.swift */,
+				E28701501F82BDD3006414E0 /* MapViewController.swift */,
 				E21EA6131F8194CC00FC8DF8 /* Main.storyboard */,
 				E21EA6191F8194CC00FC8DF8 /* Assets.xcassets */,
 				E21EA61B1F8194CC00FC8DF8 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21EA6181F8194CC00FC8DF8 /* ProjectHera.xcdatamodeld in Sources */,
-				E21EA6121F8194CC00FC8DF8 /* ViewController.swift in Sources */,
+				E28701511F82BDD3006414E0 /* MapViewController.swift in Sources */,
 				E21EA6101F8194CC00FC8DF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
