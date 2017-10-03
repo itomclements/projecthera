@@ -33,7 +33,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             if let centre = self.manager.location?.coordinate{
                 let annotation = MKPointAnnotation()
                 var annotationCoordinate = centre
-                annotationCoordinate.latitude += 0.001
+                annotationCoordinate.latitude += (Double(arc4random_uniform(200)) - 100.0)/50000.0
+                annotationCoordinate.longitude += (Double(arc4random_uniform(200)) - 100.0)/50000.0
                 annotation.coordinate = annotationCoordinate
                 self.mapView.addAnnotation(annotation)
         
